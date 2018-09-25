@@ -1,9 +1,40 @@
-<h1>THIS IS MY First LINE OF CODE ON HTML</h1>
-<h2>THIS IS MY SECOND LINE OF CODE ON HTML</h2>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <title>Main page</title>
+  <style>
+    body {
+        background-color: black;
+        color: white;
+    }
+    h1 {
+        font-family: 'Notable', sans-serif;
+        color: gray;
+        font-size: 50px;
+    }
+    a {
+        color: red;
+        font-family: 'Dancing Script', cursive;
+        font-size: 24px;
+        text-decoration: none;
+    }
+    a:hover{
+      color: green;
+    }
+  </style>
+</head>
 
-<p>Hello World!</p>
-<p>This is my first page ever</p>
-<img src="IMGS/githubavatar.png">
-<a href="page1.html"> this is a link to page 1</a>
-<a href="page2.html"> this is a link to page 2</a>
-<a href="page3.html"> this is a link to page 3</a>
+<body>
+    <img src="IMGS/githubavatar.png">
+    <h1>This is the main page.</h1>
+    <p>From this page you can access the other pages</p>
+    <ul>
+      <li><a href="page1.html">Here is a link to page one</a></li>
+      <li><a href="page2.html">Here is a link to page two</a></li>
+      <li><a href="page3.html">Here is a link to page three</a></li>
+    </ul>
+</body>
+</html>
