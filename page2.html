@@ -1,17 +1,57 @@
+ 
+
+ 
+
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="icon" href="imgs/favicon.png">
+  <link rel="icon" href="imgs/favicon.png">
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <title>Personal Projects</title>
   <style>
-   .center
+ 
+<!--  
+ div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+} -->
+ 
+.button {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+	
+  background-color: #165a82;
+  color: #f2faff;
+  float: left;
+  padding: 14px;
+  border-radius: 14px;
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+}
+
+   mainbutton
+   {
+   
+    margin-left: auto;
+  
+    width: 25%;
+    }
+	
+  .center
    {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
     }
+	
     body 
 	{
         background-color: black;
@@ -19,8 +59,6 @@
 		 background-image: url("imgs/background.gif");
 		
     }
-	
-	
     h1 
 	{
         font-family: 'Notable', sans-serif;
@@ -36,30 +74,81 @@
     }
     a:hover
 	{
-      color: yellow;
+      color: #02f75c;
     }
-  
-  
+	
+	
+	
   </style>
 </head>
 
 <body>
-    <h1>Personal Projects</h1>
 
+ <img src="imgs/avatar21.png" alt="avatar" class="center"> 
  
-    <a href="index.html"> this is a link to main page index</a>
+    <h1>Personal Projects</h1> 
+	
+	<form method="get" action="index.html" >
 
-<div style="border:1px solid black;width:500px;height:200px;overflow:scroll;overflow-y:scroll;overflow-x:hidden; background-color: #165a82;">
+    <button type="submit" class="button" >Home</button>
+	
+	
+</form>
+
+	
+<form method="get" action="page1.html" >
+
+    <button type="submit" class="button" >Homework and School Projects</button>
+	
+	
+</form>
+
+<form method="get" action="page2.html" >
+    <button type="submit" class="button" >Personal Projects</button>
+	
+ 
+
+<form method="get" action="page4.html" >
+    <button type="submit" class="button" >Downloads</button>
+	
+	
+</form> 
+	
+
+<br>
+<br>	
+<br>
+<br>	
+
+<div class="buttonsize"  style="border:1px solid black;width:500px;height:200px;overflow:scroll;overflow-y:scroll;overflow-x:scroll; background-color:  #38a2ad;">
 <p style="height:-50%;">
    <ul>
-      <p>here will be the list</p>
-	<li><a href="index.html">Here is a link to index </a></li>
- 
-	  	  
+
+   
+   
+   
+   
+   
+<!-- 
+	<div id="dB"}>
+    <a href="http://notareallink.com" title="Download" id="buyButton">Download</a> 
+</div>
+<div id="gB">
+    <a href="#" title="Gallery" onclick="$j('#galleryDiv').toggle('slow');return false;" id="galleryButton">Gallery</a>     
+</div>
+
+ -->
+		 
+
+		 
    </ul>
 </p>
-</div>
+</div> 
+	
+
+
 	
 	
+    
 </body>
 </html>
